@@ -1,11 +1,16 @@
 {
   "name": "vscode-html-ls-bin",
   "description": "HTML Language Server binary extracted from VSCode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Sebastien Waegeneire",
   "license": "MIT",
   "engines": {
     "node": "*"
+  },
+  "homepage": "https://github.com/SebastienWae/vscode-html-ls-bin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SebastienWae/vscode-html-ls-bin.git"
   },
   "dependencies": {
     "vscode-css-languageservice": "^4.3.5",
