@@ -31,6 +31,6 @@
   },
   "scripts": {
     "compile": "npx webpack",
-    "publish": "npm run compile && npm publish dist"
+    "publish": "npm run compile && npm publish"
   }
 }
