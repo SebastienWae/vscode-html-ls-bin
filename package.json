@@ -1,5 +1,5 @@
 {
-  "name": "vscode-html-lsp-bin",
+  "name": "vscode-html-ls-bin",
   "description": "HTML Language Server binary extracted from VSCode",
   "version": "1.0.0",
   "author": "Sebastien Waegeneire",
@@ -30,7 +30,6 @@
     "html-lsp": "dist/htmlServerMain.js"
   },
   "scripts": {
-    "compile": "npx webpack",
-    "publish": "npm run compile && npm publish"
+    "compile": "npx webpack"
   }
 }
