@@ -27,7 +27,7 @@
     "mocha-multi-reporters": "^1.1.7"
   },
   "bin": {
-    "html-lsp": "htmlServerMain.js"
+    "html-lsp": "dist/htmlServerMain.js"
   },
   "scripts": {
     "compile": "npx webpack",
