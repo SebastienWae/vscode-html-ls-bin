@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/vscode-html-ls-bin.svg)](https://www.npmjs.com/package/vscode-html-ls-bin)
 
-HTML Language Server binary extracted directly from [VSCode](https://github.com/microsoft/vscode).
+HTML Language Server binary built directly from [VSCode](https://github.com/microsoft/vscode).
 
-Inspiered by [vscode-langservers/vscode-html-languageserver-bin](https://github.com/vscode-langservers/vscode-html-languageserver-bin/)
+Inspired by [vscode-langservers/vscode-html-languageserver-bin](https://github.com/vscode-langservers/vscode-html-languageserver-bin/)
 
 ## Prerequisites
 
