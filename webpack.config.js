@@ -12,7 +12,7 @@ const path = require("path");
 
 /** @type WebpackConfig */
 module.exports = {
-  mode: "none", // this leaves the source code as close as possible to the original (when packaging we set this to 'production')
+  mode: "production",
   target: "node", // extensions run in a node context
   node: {
     __dirname: false, // leave the __dirname-behaviour intact
