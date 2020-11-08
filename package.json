@@ -1,7 +1,7 @@
 {
   "name": "vscode-html-ls-bin",
   "description": "HTML Language Server binary extracted from VSCode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sebastien Waegeneire",
   "license": "MIT",
   "engines": {
@@ -27,7 +27,7 @@
     "mocha-multi-reporters": "^1.1.7"
   },
   "bin": {
-    "html-lsp": "dist/htmlServerMain.js"
+    "html-ls": "dist/htmlServerMain.js"
   },
   "scripts": {
     "compile": "npx webpack"
