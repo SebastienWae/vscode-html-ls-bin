@@ -8,6 +8,7 @@
 
 "use strict";
 
+const webpack = require("webpack");
 const path = require("path");
 
 /** @type WebpackConfig */
@@ -63,5 +64,8 @@ module.exports = {
     filename: "htmlServerMain.js",
     path: path.join(__dirname, "dist"),
   },
+  plugins: [
+    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true }),
+  ],
   devtool: "source-map",
 };
